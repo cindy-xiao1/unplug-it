@@ -1,0 +1,152 @@
+[{
+ "categoryString": "EXTENSION",
+ "dateBuilt": "2022-08-02T12:04:08+0200",
+ "nonVisible": "true",
+ "iconName": "images/nearfield.png",
+ "methods": [
+  {
+   "deprecated": "false",
+   "name": "CalculatePolicyAndSignature",
+   "description": "Calculate Policy and Signature.",
+   "params": [{
+    "name": "secretKey",
+    "type": "text"
+   }]
+  },
+  {
+   "deprecated": "false",
+   "name": "DeleteToFileStackWithSecretKey",
+   "description": "Delete File to FileStack with Secret Key.",
+   "params": [
+    {
+     "name": "handle",
+     "type": "text"
+    },
+    {
+     "name": "apiKey",
+     "type": "text"
+    },
+    {
+     "name": "secretKey",
+     "type": "text"
+    }
+   ]
+  },
+  {
+   "deprecated": "false",
+   "name": "OverwriteFileStackWithSecretKey",
+   "description": "Overwrite File to FileStack with Secret Key.",
+   "params": [
+    {
+     "name": "objectLocation",
+     "type": "text"
+    },
+    {
+     "name": "handle",
+     "type": "text"
+    },
+    {
+     "name": "fileType",
+     "type": "text"
+    },
+    {
+     "name": "apiKey",
+     "type": "text"
+    },
+    {
+     "name": "secretKey",
+     "type": "text"
+    }
+   ]
+  },
+  {
+   "deprecated": "false",
+   "name": "UploadToFileStack",
+   "description": "Upload File to FileStack.",
+   "params": [
+    {
+     "name": "objectLocation",
+     "type": "text"
+    },
+    {
+     "name": "fileType",
+     "type": "text"
+    },
+    {
+     "name": "apiKey",
+     "type": "text"
+    }
+   ]
+  },
+  {
+   "deprecated": "false",
+   "name": "UploadToFileStackWithSecretKey",
+   "description": "Upload File to FileStack with Secret Key.",
+   "params": [
+    {
+     "name": "objectLocation",
+     "type": "text"
+    },
+    {
+     "name": "fileType",
+     "type": "text"
+    },
+    {
+     "name": "apiKey",
+     "type": "text"
+    },
+    {
+     "name": "secretKey",
+     "type": "text"
+    }
+   ]
+  }
+ ],
+ "blockProperties": [],
+ "helpUrl": "",
+ "licenseName": "",
+ "type": "FileStack.FileStack",
+ "androidMinSdk": 7,
+ "version": "8",
+ "external": "true",
+ "showOnPalette": "true",
+ "name": "FileStack",
+ "helpString": "<p>Non-visible component to manage files to FileStack.",
+ "properties": [],
+ "events": [
+  {
+   "deprecated": "false",
+   "name": "GetFileStackResponse",
+   "description": "Get FileStack Response",
+   "params": [
+    {
+     "name": "responseCode",
+     "type": "number"
+    },
+    {
+     "name": "response",
+     "type": "text"
+    },
+    {
+     "name": "handle",
+     "type": "text"
+    }
+   ]
+  },
+  {
+   "deprecated": "false",
+   "name": "GetPolicyAndSignature",
+   "description": "Get Policy and Signature",
+   "params": [
+    {
+     "name": "policy",
+     "type": "text"
+    },
+    {
+     "name": "signature",
+     "type": "text"
+    }
+   ]
+  }
+ ]
+}]
