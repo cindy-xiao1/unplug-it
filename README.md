@@ -1,4 +1,4 @@
-# unplug-it
+# Unplug-It
 Unplug-It is an integrated system that combines a mobile app, energy-saving AI, and robot arm to safely reduce phantom power in homes.
 
 <img width="1246" height="700" alt="Screenshot 2026-09-16 at 11 46 11 PM" src="https://github.com/user-attachments/assets/28d79179-3c59-402e-bd59-2f49f876f217" />
